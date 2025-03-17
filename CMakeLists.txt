@@ -1,3 +1,6 @@
+set( CC "C:/mysys64/ucrt64/bin/gcc.exe" )
+set( CXX "C:/mysys64/ucrt64/bin/g++.exe" )
+
 cmake_minimum_required(VERSION 3.13)
 
 project(shell-starter-cpp)
