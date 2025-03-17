@@ -8,7 +8,7 @@ int main() {
   std::getline(std::cin, input);
   
   if (!validCommands.contains(input)) {
-    std::cout << input << "Invalid command" << std::endl;
+    std::cout << input << ": command not found" << std::endl;
   }
 
 }
